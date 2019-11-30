@@ -1,0 +1,254 @@
+/* Base structure */
+
+html,
+body {
+  height: 100%;
+  background-color: #190D0D;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 88em;
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  font-family: 'Edwardian Script ITC', cursive;
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  font-family: 'Edwardian Script ITC', cursive;
+  font-size: 1.75em;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0.75rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+/* video code and Header text*/
+header {
+  position: relative;
+  background-color: black;
+  font-family: 'Edwardian Script ITC', cursive;
+  text-shadow: 2px 2px grey;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+p {
+  font-family: 'Lucida Calligraphy', cursive;
+  font-size: .90em;
+}
+/* end video code*/
+
+/* jumbotron */
+.jumbotron {
+  padding-top: 30px;
+  min-height: 400px;
+  margin-bottom: 0;
+  background-image: url('images/scallop.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron h1 {
+  font-family: 'Edwardian Script ITC', cursive;
+  color: #990000;
+  font-size: 4em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.jumbotron h2 {
+  font-family: 'Edwardian Script ITC', cursive;
+  color: white;
+  text-shadow: 2px 2px grey;
+  font-size: 3em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.jumbotron p {
+  font-family: 'Edwardian Script ITC', cursive;
+  color: #990000;
+  font-size: 2.0em;
+  line-height: 1.0em;
+  margin-bottom: 0.5em;
+}
+
+.jumbotron p1 {
+  font-family: 'Edwardian Script ITC', cursive;
+  color: white;
+  text-shadow: 2px 2px grey;
+  font-size: 2.0em;
+  line-height: 1.0em;
+  margin-top: 1.0em
+  margin-bottom: 1.0em;
+}
+
+.jumbotron p2 {
+  font-family: 'Lucida Calligraphy', cursive;
+  color: white;
+  font-size: 1.0em;
+  line-height: 1.0em;
+  margin-top: 1.0em
+  margin-bottom: 1.0em;
+}
+
+/* END jumbotron*/
+
+/* images for signature dishes*/
+
+img {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+  height: 160px;
+}
+/*end images for signature dishes*/
+
+/* Contact Us*/
+/* Style inputs with type="text" */
+input[type=text], select, textarea {
+  font-family: 'Edwardian Script ITC', cursive;
+  font-size: 1.5em;
+  width: 50%;
+  padding: 6px;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: content-box;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #b38600;
+  font-size: 1.5em;
+  font-family: 'Edwardian Script ITC', cursive;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a dark red color */
+input[type=submit]:hover {
+  background-color: #993333;
+}
+/* End Contact Us*/
+
+/* Social Media*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* End social media/
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #b38600;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+  border-radius: 4px;
+}
+
+/* Footer */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
