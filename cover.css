@@ -189,7 +189,7 @@ img {
   max-width: 100%;
   max-height: 100%;
   margin-bottom: 0;
-  background-image: url('https://github.com/ppetrob/chefs-page/tree/master/images/scallop.jpg');
+  background-image: url("images/scallop.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -200,7 +200,7 @@ img {
   max-width: 100%;
   max-height: 100%;
   margin-bottom: 0;
-  background-image: url('https://github.com/ppetrob/chefs-page/tree/master/images/prawns.jpg');
+  background-image: url("images/prawns.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
